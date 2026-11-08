@@ -44,4 +44,4 @@ VENMO=@your-username npm run example
 - The pre-filled link format is **not documented by Venmo**. Test it once from your own phone ([guide, step 6](docs/GUIDE.md#6-test-the-link-on-a-phone)).
 - Because a shopper can change the amount in Venmo, **always check the amount in your Venmo activity before pressing Mark paid.**
 
-This is not affiliated with or endorsed by Venmo or PayPal. MIT licensed.
+This is not affiliated with or endorsed by Venmo or PayPal.

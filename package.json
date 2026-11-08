@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "Add Venmo as a way to pay on your own website: pay link with the amount and note filled in, QR code, held orders, mark paid by hand.",
   "type": "module",
-  "license": "MIT",
   "exports": {
     ".": "./src/orders.js",
     "./venmo": "./src/venmo.js",
