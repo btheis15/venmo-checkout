@@ -1,0 +1,22 @@
+{
+  "name": "venmo-checkout",
+  "version": "0.1.0",
+  "description": "Add Venmo as a way to pay on your own website: pay link with the amount and note filled in, QR code, held orders, mark paid by hand.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/orders.js",
+    "./venmo": "./src/venmo.js",
+    "./memory-store": "./src/memory-store.js"
+  },
+  "files": ["src", "examples", "docs"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "example": "node examples/server.mjs"
+  },
+  "devDependencies": {
+    "uqr": "0.1.3"
+  },
+  "keywords": ["venmo", "checkout", "payments", "ecommerce", "manual-payment"]
+}
